@@ -1,0 +1,20 @@
+{
+  "name": "@icecreamswap/dex",
+  "description": "Exchange contracts from IceCreamSwap v2",
+  "version": "2.0.0",
+  "license": "GPL-3.0/MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts",
+    "getInitCodeHash": "npx hardhat run scripts/getInitCodeHash.ts"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@uniswap/v2-core": "1.0.1",
+    "@uniswap/lib": "4.0.1-alpha"
+  }
+}

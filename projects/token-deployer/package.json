@@ -1,0 +1,17 @@
+{
+  "name": "token-deployer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "4.3.2",
+    "ethers": "^5.5.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@icecreamswap/dex-v3-lm-pool",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile --force",
+    "deploy": "npx hardhat run scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*",
+    "@icecreamswap/dex-v3-core": "*",
+    "@openzeppelin/contracts": "3.4.2-solc-0.7"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@icecreamswap/liquidity-farms-v3",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "files": [
+    "contracts",
+    "artifacts/contracts/**/*.json",
+    "!artifacts/contracts/**/*.dbg.json"
+  ],
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@icecreamswap/dex-v3-core": "*",
+    "@icecreamswap/dex-v3-lm-pool": "*",
+    "@icecreamswap/dex-v3-periphery": "*",
+    "@uniswap/v3-sdk": "^3.9.0"
+  }
+}

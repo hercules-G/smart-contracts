@@ -1,0 +1,15 @@
+{
+  "name": "@icecreamswap/dex-v3-core",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts",
+    "generateV3InitCodeHash": "npx hardhat run scripts/computeV3InitCodeHash.ts"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*",
+    "@icecreamswap/dex-v3-lm-pool": "*"
+  }
+}

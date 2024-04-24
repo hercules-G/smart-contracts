@@ -1,0 +1,14 @@
+{
+  "name": "multicall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*"
+  }
+}
